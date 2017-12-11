@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import { Field, reduxForm } from "redux-form";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 import { ToastContainer, ToastMessage } from 'react-toastr';
 import * as actions from '../../actions/auth';
 import { Button } from '@auth0/styleguide-react-components';
-import * as EmailValidator from 'email-validator';
 import PropTypes from 'prop-types';
 const ToastMessageFactory = React.createFactory(ToastMessage.animation);
 

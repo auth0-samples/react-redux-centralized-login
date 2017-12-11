@@ -1,12 +1,9 @@
 import {
-  AUTH_USER,
   AUTH_IN_PROGRESS,
   UNAUTH_USER,
   AUTH_ERROR,
   CLEARDOWN
 } from './authTypes';
-
-import params from './../../auth0-params.json';
 
 import Auth from './Auth';
 
